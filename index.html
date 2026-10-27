@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#080b12">
   <meta name="description" content="COMANDO: pickup y sonido para quince años, graduaciones, cumpleaños y celebraciones especiales. Solicita una cotización por WhatsApp.">
+  <link rel="canonical" href="https://konfiozinc.github.io/comando/">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://konfiozinc.github.io/comando/">
   <meta property="og:title" content="COMANDO · Sonido para eventos">
   <meta property="og:description" content="Que tu celebración suene a otro nivel. Solicita disponibilidad y cotización por WhatsApp.">
-  <meta property="og:image" content="assets/img/og-comando.png">
+  <meta property="og:image" content="https://konfiozinc.github.io/comando/assets/img/og-comando.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="COMANDO · Sonido para eventos">
   <meta name="twitter:description" content="Pickup y sonido para celebraciones especiales.">
-  <meta name="twitter:image" content="assets/img/og-comando.png">
+  <meta name="twitter:image" content="https://konfiozinc.github.io/comando/assets/img/og-comando.png">
   <title>COMANDO · Pickup y sonido para eventos</title>
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
@@ -33,7 +35,11 @@
   <main id="contenido">
     <section class="hero" id="inicio" aria-labelledby="hero-title">
       <div class="hero__media" aria-hidden="true">
-        <picture><source srcset="assets/img/comando2.webp" type="image/webp"><img class="source-photo" src="comando2.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="" decoding="async" fetchpriority="high"></picture>
+        <picture>
+          <source media="(max-width: 699px)" srcset="assets/img/comando1.webp" type="image/webp">
+          <source srcset="assets/img/comando2.webp" type="image/webp">
+          <img class="source-photo" src="comando2.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="" decoding="async" fetchpriority="high">
+        </picture>
         <div class="hero__beam hero__beam--one"></div><div class="hero__beam hero__beam--two"></div>
       </div>
       <div class="hero__content">
@@ -42,7 +48,7 @@
         <p class="hero__tagline">¡Que tu celebración suene a otro nivel!</p>
         <div class="actions">
           <a class="button button--primary" data-wa="general" href="https://wa.me/573145786472" target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
-          <a class="button button--ghost" href="tel:+573145786472">Llamar ahora</a>
+          <button class="button button--ghost" id="open-videos" type="button">Ver COMANDO en acción</button>
         </div>
         <p class="hero__note">Disponibilidad, cobertura y precio se confirman al cotizar.</p>
       </div>
@@ -71,20 +77,26 @@
         <h2 id="gallery-title">COMANDO en detalle</h2>
         <p>Toca una fotografía para verla completa.</p>
       </div>
-      <div class="gallery" role="list">
-        <button class="gallery__item gallery__item--tall" type="button" data-gallery-index="0" role="listitem">
-          <picture><source srcset="assets/img/comando.webp" type="image/webp"><img class="source-photo" src="comando.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Vista completa del pickup COMANDO" loading="lazy" decoding="async"></picture>
-          <span>Montaje completo</span>
-        </button>
-        <button class="gallery__item" type="button" data-gallery-index="1" role="listitem">
-          <picture><source srcset="assets/img/comando1.webp" type="image/webp"><img class="source-photo" src="comando1.jpeg" data-fallback="assets/img/comando4-poster.webp" alt="Vista frontal iluminada del pickup COMANDO" loading="lazy" decoding="async"></picture>
-          <span>Vista iluminada</span>
-        </button>
-        <button class="gallery__item" type="button" data-gallery-index="2" role="listitem">
-          <picture><source srcset="assets/img/comando2.webp" type="image/webp"><img class="source-photo" src="comando2.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Equipo COMANDO preparado junto a otro módulo para un evento" loading="lazy" decoding="async"></picture>
-          <span>Listo para celebrar</span>
-        </button>
-      </div>
+      <details class="media-panel" id="gallery-panel">
+        <summary class="button button--media">Ver fotografías</summary>
+        <div class="media-panel__content">
+          <div class="gallery" role="list">
+            <button class="gallery__item gallery__item--tall" type="button" data-gallery-index="0" role="listitem">
+              <picture><source srcset="assets/img/comando.webp" type="image/webp"><img class="source-photo" src="comando.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Vista completa del pickup COMANDO" loading="lazy" decoding="async"></picture>
+              <span>Montaje completo</span>
+            </button>
+            <button class="gallery__item" type="button" data-gallery-index="1" role="listitem">
+              <picture><source srcset="assets/img/comando1.webp" type="image/webp"><img class="source-photo" src="comando1.jpeg" data-fallback="assets/img/comando4-poster.webp" alt="Vista frontal iluminada del pickup COMANDO" loading="lazy" decoding="async"></picture>
+              <span>Vista iluminada</span>
+            </button>
+            <button class="gallery__item" type="button" data-gallery-index="2" role="listitem">
+              <picture><source srcset="assets/img/comando2.webp" type="image/webp"><img class="source-photo" src="comando2.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Equipo COMANDO preparado junto a otro módulo para un evento" loading="lazy" decoding="async"></picture>
+              <span>Listo para celebrar</span>
+            </button>
+          </div>
+          <button class="panel-close" type="button" data-close-panel="gallery-panel">Cerrar fotografías</button>
+        </div>
+      </details>
     </section>
 
     <section class="section" id="videos" aria-labelledby="videos-title">
@@ -93,22 +105,28 @@
         <h2 id="videos-title">Mira el ambiente</h2>
         <p>Los videos se cargan únicamente cuando decides reproducirlos.</p>
       </div>
-      <div class="video-grid">
-        <article class="video-card">
-          <div class="video-stage" data-video="assets/video/comando3-web.mp4" data-poster="assets/img/comando3-poster.webp">
-            <img src="assets/img/comando3-poster.webp" alt="Portada del video uno de COMANDO" loading="lazy">
-            <button class="play-button" type="button" aria-label="Reproducir video uno"><span aria-hidden="true">▶</span></button>
+      <details class="media-panel" id="video-panel">
+        <summary class="button button--media">Ver COMANDO en acción</summary>
+        <div class="media-panel__content">
+          <div class="video-grid">
+            <article class="video-card">
+              <div class="video-stage" data-video="assets/video/comando3-web.mp4" data-poster="assets/img/comando3-poster.webp">
+                <img src="assets/img/comando3-poster.webp" alt="Portada del video uno de COMANDO" loading="lazy">
+                <button class="play-button" type="button" aria-label="Reproducir video uno"><span aria-hidden="true">▶</span></button>
+              </div>
+              <h3>COMANDO · Video 1</h3>
+            </article>
+            <article class="video-card">
+              <div class="video-stage" data-video="assets/video/comando4-web.mp4" data-poster="assets/img/comando4-poster.webp">
+                <img src="assets/img/comando4-poster.webp" alt="Portada del video dos de COMANDO" loading="lazy">
+                <button class="play-button" type="button" aria-label="Reproducir video dos"><span aria-hidden="true">▶</span></button>
+              </div>
+              <h3>COMANDO · Video 2</h3>
+            </article>
           </div>
-          <h3>COMANDO · Video 1</h3>
-        </article>
-        <article class="video-card">
-          <div class="video-stage" data-video="assets/video/comando4-web.mp4" data-poster="assets/img/comando4-poster.webp">
-            <img src="assets/img/comando4-poster.webp" alt="Portada del video dos de COMANDO" loading="lazy">
-            <button class="play-button" type="button" aria-label="Reproducir video dos"><span aria-hidden="true">▶</span></button>
-          </div>
-          <h3>COMANDO · Video 2</h3>
-        </article>
-      </div>
+          <button class="panel-close" type="button" data-close-panel="video-panel">Cerrar videos</button>
+        </div>
+      </details>
     </section>
 
     <section class="section section--quote" id="cotizar" aria-labelledby="quote-title">
@@ -125,7 +143,7 @@
           <div class="field"><label for="duration">Duración estimada</label><input id="duration" name="duration" placeholder="Ej. 5 horas" required maxlength="40"><small class="error" id="duration-error"></small></div>
         </div>
         <div class="field"><label for="location">Municipio o ubicación</label><input id="location" name="location" required maxlength="100" autocomplete="address-level2"><small class="error" id="location-error"></small></div>
-        <div class="field"><label for="comments">Información adicional <span>(opcional)</span></label><textarea id="comments" name="comments" rows="4" maxlength="500"></textarea></div>
+        <details class="optional-field"><summary>Agregar información adicional <span>(opcional)</span></summary><div class="field"><label for="comments">Información adicional</label><textarea id="comments" name="comments" rows="3" maxlength="500"></textarea></div></details>
         <button class="button button--primary button--wide" type="submit">Solicitar cotización</button>
         <p class="privacy-note">Los datos permanecen en este formulario hasta que abras WhatsApp. No se guardan en el navegador ni se envían a un servidor.</p>
       </form>
@@ -140,7 +158,7 @@
         <button class="button button--ghost" id="share-card" type="button">Compartir tarjeta</button>
       </div>
       <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
-      <div class="qr-pending" aria-label="Código QR pendiente de URL definitiva"><span aria-hidden="true">⌁</span><div><strong>QR disponible al publicar</strong><small>Se generará cuando exista una URL aprobada.</small></div></div>
+      <div class="qr-pending" aria-label="URL oficial de la tarjeta COMANDO"><span aria-hidden="true">↗</span><div><strong>Tarjeta oficial COMANDO</strong><small>konfiozinc.github.io/comando/</small></div></div>
     </section>
   </main>
 

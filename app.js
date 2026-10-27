@@ -1,6 +1,7 @@
 'use strict';
 
 const PHONE = '573145786472';
+const PUBLIC_URL = 'https://konfiozinc.github.io/comando/';
 const quoteBase = 'Hola, quiero contratar el pickup COMANDO.';
 
 document.querySelectorAll('.source-photo').forEach((image) => {
@@ -24,6 +25,21 @@ document.querySelectorAll('.event-card').forEach((button) => {
     select.value = button.dataset.event;
     document.querySelector('#cotizar').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     setTimeout(() => document.querySelector('#name').focus(), 400);
+  });
+});
+
+const videoPanel = document.querySelector('#video-panel');
+document.querySelector('#open-videos').addEventListener('click', () => {
+  videoPanel.open = true;
+  videoPanel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+  videoPanel.querySelector('.play-button').focus({ preventScroll: true });
+});
+document.querySelectorAll('[data-close-panel]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const panel = document.getElementById(button.dataset.closePanel);
+    panel.querySelectorAll('video').forEach((video) => video.pause());
+    panel.open = false;
+    panel.querySelector('summary').focus();
   });
 });
 
@@ -97,11 +113,19 @@ lightbox.addEventListener('click', (event) => { if (event.target === lightbox) h
 lightbox.addEventListener('touchstart', (event) => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
 lightbox.addEventListener('touchend', (event) => { if (touchStart === null) return; const delta = event.changedTouches[0].clientX - touchStart; if (Math.abs(delta) > 45) showImage(currentImage + (delta < 0 ? 1 : -1)); touchStart = null; }, { passive: true });
 document.addEventListener('keydown', (event) => {
-  if (lightbox.hidden) return;
-  if (event.key === 'Escape') hideLightbox();
-  if (event.key === 'ArrowLeft') showImage(currentImage - 1);
-  if (event.key === 'ArrowRight') showImage(currentImage + 1);
-  if (event.key === 'Tab') {
+  if (!lightbox.hidden) {
+    if (event.key === 'Escape') hideLightbox();
+    if (event.key === 'ArrowLeft') showImage(currentImage - 1);
+    if (event.key === 'ArrowRight') showImage(currentImage + 1);
+  } else if (event.key === 'Escape') {
+    const openPanel = document.querySelector('.media-panel[open]');
+    if (openPanel) {
+      openPanel.querySelectorAll('video').forEach((video) => video.pause());
+      openPanel.open = false;
+      openPanel.querySelector('summary').focus();
+    }
+  }
+  if (!lightbox.hidden && event.key === 'Tab') {
     const controls = [...lightbox.querySelectorAll('button')];
     const first = controls[0], last = controls[controls.length - 1];
     if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
@@ -111,12 +135,12 @@ document.addEventListener('keydown', (event) => {
 
 const status = document.querySelector('#share-status');
 async function shareCard() {
-  const data = { title: 'COMANDO · Sonido para eventos', text: 'Conoce COMANDO y solicita una cotización para tu celebración.', url: location.href };
+  const data = { title: 'COMANDO · Sonido para eventos', text: 'Conoce COMANDO y solicita una cotización para tu celebración.', url: PUBLIC_URL };
   try {
     if (navigator.share) await navigator.share(data);
-    else if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(location.href); status.textContent = 'Enlace copiado.'; }
+    else if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(PUBLIC_URL); status.textContent = 'Enlace copiado.'; }
     else {
-      const temporary = document.createElement('textarea'); temporary.value = location.href; temporary.setAttribute('readonly', ''); temporary.style.position = 'fixed'; temporary.style.opacity = '0';
+      const temporary = document.createElement('textarea'); temporary.value = PUBLIC_URL; temporary.setAttribute('readonly', ''); temporary.style.position = 'fixed'; temporary.style.opacity = '0';
       document.body.append(temporary); temporary.select(); document.execCommand('copy'); temporary.remove(); status.textContent = 'Enlace copiado.';
     }
   } catch (error) { if (error.name !== 'AbortError') status.textContent = 'No fue posible compartir. Copia la dirección del navegador.'; }

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-27T14:06:44.856Z",
+  "generatedAt": "2026-10-27T14:43:20.048Z",
   "checks": [
     {
       "name": "320px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":320,\"cw\":320,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":284,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":284,\"h\":52},{\"text\":\"15Quince años\",\"w\":137,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":137,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":137,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":137,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":137,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":137,\"h\":138},{\"text\":\"Montaje completo\",\"w\":232.875,\"h\":500},{\"text\":\"Vista iluminada\",\"w\":232.875,\"h\":500},{\"text\":\"Listo para celebrar\",\"w\":232.875,\"h\":500},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":238,\"h\":52},{\"text\":\"WhatsApp\",\"w\":284,\"h\":52},{\"text\":\"314 578 6472\",\"w\":284,\"h\":52},{\"text\":\"Guardar contacto\",\"w\":284,\"h\":52},{\"text\":\"Compartir tarjeta\",\"w\":284,\"h\":52}]}"
+      "detail": "{\"sw\":320,\"cw\":320,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":268.6875,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":268.6875,\"h\":50},{\"text\":\"15Quince años\",\"w\":143,\"h\":96},{\"text\":\"★Graduaciones\",\"w\":143,\"h\":96},{\"text\":\"♪Cumpleaños\",\"w\":143,\"h\":96},{\"text\":\"↗Despedidas\",\"w\":143,\"h\":96},{\"text\":\"✦Fiestas decembrinas\",\"w\":143,\"h\":105.3125},{\"text\":\"+Eventos especiales\",\"w\":143,\"h\":105.3125},{\"text\":\"Ver fotografías\",\"w\":296,\"h\":76},{\"text\":\"Montaje completo\",\"w\":258.71875,\"h\":390},{\"text\":\"Vista iluminada\",\"w\":258.71875,\"h\":390},{\"text\":\"Listo para celebrar\",\"w\":258.71875,\"h\":390},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":296,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":258,\"h\":50},{\"text\":\"WhatsApp\",\"w\":294,\"h\":50},{\"text\":\"314 578 6472\",\"w\":294,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":294,\"h\":50},{\"text\":\"Compartir tarjeta\",\"w\":294,\"h\":50}]}"
     },
     {
       "name": "320px objetivos táctiles",
@@ -19,7 +19,7 @@
     {
       "name": "360px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":360,\"cw\":360,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":324,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":324,\"h\":52},{\"text\":\"15Quince años\",\"w\":157,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":157,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":157,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":157,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":157,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":157,\"h\":138},{\"text\":\"Montaje completo\",\"w\":265.671875,\"h\":500},{\"text\":\"Vista iluminada\",\"w\":265.671875,\"h\":500},{\"text\":\"Listo para celebrar\",\"w\":265.671875,\"h\":500},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":278,\"h\":52},{\"text\":\"WhatsApp\",\"w\":324,\"h\":52},{\"text\":\"314 578 6472\",\"w\":324,\"h\":52},{\"text\":\"Guardar contacto\",\"w\":324,\"h\":52},{\"text\":\"Compartir tarjeta\",\"w\":324,\"h\":52}]}"
+      "detail": "{\"sw\":360,\"cw\":360,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":284.515625,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":284.515625,\"h\":50},{\"text\":\"15Quince años\",\"w\":157,\"h\":96},{\"text\":\"★Graduaciones\",\"w\":157,\"h\":96},{\"text\":\"♪Cumpleaños\",\"w\":157,\"h\":96},{\"text\":\"↗Despedidas\",\"w\":157,\"h\":96},{\"text\":\"✦Fiestas decembrinas\",\"w\":157,\"h\":105.3125},{\"text\":\"+Eventos especiales\",\"w\":157,\"h\":105.3125},{\"text\":\"Ver fotografías\",\"w\":324,\"h\":76},{\"text\":\"Montaje completo\",\"w\":264.03125,\"h\":390},{\"text\":\"Vista iluminada\",\"w\":264.03125,\"h\":390},{\"text\":\"Listo para celebrar\",\"w\":264.03125,\"h\":390},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":324,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":286,\"h\":50},{\"text\":\"WhatsApp\",\"w\":156.5,\"h\":50},{\"text\":\"314 578 6472\",\"w\":156.5,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":156.5,\"h\":64.375},{\"text\":\"Compartir tarjeta\",\"w\":156.5,\"h\":64.375}]}"
     },
     {
       "name": "360px objetivos táctiles",
@@ -34,7 +34,7 @@
     {
       "name": "375px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":375,\"cw\":375,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":339,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":339,\"h\":52},{\"text\":\"15Quince años\",\"w\":164.5,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":164.5,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":164.5,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":164.5,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":164.5,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":164.5,\"h\":138},{\"text\":\"Montaje completo\",\"w\":277.96875,\"h\":500},{\"text\":\"Vista iluminada\",\"w\":277.96875,\"h\":500},{\"text\":\"Listo para celebrar\",\"w\":277.96875,\"h\":500},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":293,\"h\":52},{\"text\":\"WhatsApp\",\"w\":339,\"h\":52},{\"text\":\"314 578 6472\",\"w\":339,\"h\":52},{\"text\":\"Guardar contacto\",\"w\":339,\"h\":52},{\"text\":\"Compartir tarjeta\",\"w\":339,\"h\":52}]}"
+      "detail": "{\"sw\":375,\"cw\":375,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":296.40625,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":296.40625,\"h\":50},{\"text\":\"15Quince años\",\"w\":164.5,\"h\":96},{\"text\":\"★Graduaciones\",\"w\":164.5,\"h\":96},{\"text\":\"♪Cumpleaños\",\"w\":164.5,\"h\":96},{\"text\":\"↗Despedidas\",\"w\":164.5,\"h\":96},{\"text\":\"✦Fiestas decembrinas\",\"w\":164.5,\"h\":105.3125},{\"text\":\"+Eventos especiales\",\"w\":164.5,\"h\":105.3125},{\"text\":\"Ver fotografías\",\"w\":339,\"h\":76},{\"text\":\"Montaje completo\",\"w\":276.328125,\"h\":390},{\"text\":\"Vista iluminada\",\"w\":276.328125,\"h\":390},{\"text\":\"Listo para celebrar\",\"w\":276.328125,\"h\":390},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":339,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":301,\"h\":50},{\"text\":\"WhatsApp\",\"w\":164,\"h\":50},{\"text\":\"314 578 6472\",\"w\":164,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":164,\"h\":64.375},{\"text\":\"Compartir tarjeta\",\"w\":164,\"h\":64.375}]}"
     },
     {
       "name": "375px objetivos táctiles",
@@ -49,7 +49,7 @@
     {
       "name": "390px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":390,\"cw\":390,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":354,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":354,\"h\":52},{\"text\":\"15Quince años\",\"w\":172,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":172,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":172,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":172,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":172,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":172,\"h\":138},{\"text\":\"Montaje completo\",\"w\":290.265625,\"h\":500},{\"text\":\"Vista iluminada\",\"w\":290.265625,\"h\":500},{\"text\":\"Listo para celebrar\",\"w\":290.265625,\"h\":500},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":308,\"h\":52},{\"text\":\"WhatsApp\",\"w\":354,\"h\":52},{\"text\":\"314 578 6472\",\"w\":354,\"h\":52},{\"text\":\"Guardar contacto\",\"w\":354,\"h\":52},{\"text\":\"Compartir tarjeta\",\"w\":354,\"h\":52}]}"
+      "detail": "{\"sw\":390,\"cw\":390,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":308.21875,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":308.21875,\"h\":50},{\"text\":\"15Quince años\",\"w\":172,\"h\":96},{\"text\":\"★Graduaciones\",\"w\":172,\"h\":96},{\"text\":\"♪Cumpleaños\",\"w\":172,\"h\":96},{\"text\":\"↗Despedidas\",\"w\":172,\"h\":96},{\"text\":\"✦Fiestas decembrinas\",\"w\":172,\"h\":96},{\"text\":\"+Eventos especiales\",\"w\":172,\"h\":96},{\"text\":\"Ver fotografías\",\"w\":354,\"h\":76},{\"text\":\"Montaje completo\",\"w\":288.625,\"h\":390},{\"text\":\"Vista iluminada\",\"w\":288.625,\"h\":390},{\"text\":\"Listo para celebrar\",\"w\":288.625,\"h\":390},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":354,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":316,\"h\":50},{\"text\":\"WhatsApp\",\"w\":171.5,\"h\":50},{\"text\":\"314 578 6472\",\"w\":171.5,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":171.5,\"h\":64.375},{\"text\":\"Compartir tarjeta\",\"w\":171.5,\"h\":64.375}]}"
     },
     {
       "name": "390px objetivos táctiles",
@@ -64,7 +64,7 @@
     {
       "name": "768px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":768,\"cw\":768,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":216.890625,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":190,\"h\":52},{\"text\":\"15Quince años\",\"w\":228,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":228,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":228,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":228,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":228,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":228,\"h\":138},{\"text\":\"Montaje completo\",\"w\":224.875,\"h\":510},{\"text\":\"Vista iluminada\",\"w\":195.5625,\"h\":510},{\"text\":\"Listo para celebrar\",\"w\":195.5625,\"h\":510},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":658,\"h\":52},{\"text\":\"WhatsApp\",\"w\":148,\"h\":142.4375},{\"text\":\"314 578 6472\",\"w\":148,\"h\":142.4375},{\"text\":\"Guardar contacto\",\"w\":148,\"h\":160.109375},{\"text\":\"Compartir tarjeta\",\"w\":148,\"h\":160.109375}]}"
+      "detail": "{\"sw\":768,\"cw\":768,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":220,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":220.8125,\"h\":50},{\"text\":\"15Quince años\",\"w\":228,\"h\":96},{\"text\":\"★Graduaciones\",\"w\":228,\"h\":96},{\"text\":\"♪Cumpleaños\",\"w\":228,\"h\":96},{\"text\":\"↗Despedidas\",\"w\":228,\"h\":96},{\"text\":\"✦Fiestas decembrinas\",\"w\":228,\"h\":96},{\"text\":\"+Eventos especiales\",\"w\":228,\"h\":96},{\"text\":\"Ver fotografías\",\"w\":704,\"h\":76},{\"text\":\"Montaje completo\",\"w\":234.78125,\"h\":430},{\"text\":\"Vista iluminada\",\"w\":223.609375,\"h\":430},{\"text\":\"Listo para celebrar\",\"w\":223.609375,\"h\":430},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":704,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":372.40625,\"h\":50},{\"text\":\"WhatsApp\",\"w\":165,\"h\":50},{\"text\":\"314 578 6472\",\"w\":165,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":165,\"h\":64.375},{\"text\":\"Compartir tarjeta\",\"w\":165,\"h\":64.375}]}"
     },
     {
       "name": "768px objetivos táctiles",
@@ -79,7 +79,7 @@
     {
       "name": "1024px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":1024,\"cw\":1024,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":216.890625,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":190,\"h\":52},{\"text\":\"15Quince años\",\"w\":313.328125,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":313.328125,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":313.34375,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":313.328125,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":313.328125,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":313.34375,\"h\":138},{\"text\":\"Montaje completo\",\"w\":318.34375,\"h\":510},{\"text\":\"Vista iluminada\",\"w\":276.828125,\"h\":510},{\"text\":\"Listo para celebrar\",\"w\":276.8125,\"h\":510},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":710,\"h\":52},{\"text\":\"WhatsApp\",\"w\":205.59375,\"h\":117.671875},{\"text\":\"314 578 6472\",\"w\":205.59375,\"h\":117.671875},{\"text\":\"Guardar contacto\",\"w\":205.59375,\"h\":117.671875},{\"text\":\"Compartir tarjeta\",\"w\":205.59375,\"h\":117.671875}]}"
+      "detail": "{\"sw\":1024,\"cw\":1024,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":220,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":220.8125,\"h\":50},{\"text\":\"15Quince años\",\"w\":313.328125,\"h\":96},{\"text\":\"★Graduaciones\",\"w\":313.328125,\"h\":96},{\"text\":\"♪Cumpleaños\",\"w\":313.34375,\"h\":96},{\"text\":\"↗Despedidas\",\"w\":313.328125,\"h\":96},{\"text\":\"✦Fiestas decembrinas\",\"w\":313.328125,\"h\":96},{\"text\":\"+Eventos especiales\",\"w\":313.34375,\"h\":96},{\"text\":\"Ver fotografías\",\"w\":960,\"h\":76},{\"text\":\"Montaje completo\",\"w\":322.90625,\"h\":430},{\"text\":\"Vista iluminada\",\"w\":307.546875,\"h\":430},{\"text\":\"Listo para celebrar\",\"w\":307.546875,\"h\":430},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":960,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":526,\"h\":50},{\"text\":\"WhatsApp\",\"w\":229,\"h\":50},{\"text\":\"314 578 6472\",\"w\":229,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":229,\"h\":50},{\"text\":\"Compartir tarjeta\",\"w\":229,\"h\":50}]}"
     },
     {
       "name": "1024px objetivos táctiles",
@@ -94,7 +94,7 @@
     {
       "name": "1440px sin desbordamiento",
       "pass": true,
-      "detail": "{\"sw\":1440,\"cw\":1440,\"buttons\":[{\"text\":\"\",\"w\":46,\"h\":46},{\"text\":\"Cotizar por WhatsApp\",\"w\":216.890625,\"h\":52},{\"text\":\"Llamar ahora\",\"w\":190,\"h\":52},{\"text\":\"15Quince años\",\"w\":345.328125,\"h\":138},{\"text\":\"★Graduaciones\",\"w\":345.328125,\"h\":138},{\"text\":\"♪Cumpleaños\",\"w\":345.34375,\"h\":138},{\"text\":\"↗Despedidas\",\"w\":345.328125,\"h\":138},{\"text\":\"✦Fiestas decembrinas\",\"w\":345.328125,\"h\":138},{\"text\":\"+Eventos especiales\",\"w\":345.34375,\"h\":138},{\"text\":\"Montaje completo\",\"w\":470.21875,\"h\":620},{\"text\":\"Vista iluminada\",\"w\":408.890625,\"h\":620},{\"text\":\"Listo para celebrar\",\"w\":408.875,\"h\":620},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"▶\",\"w\":68,\"h\":68},{\"text\":\"Solicitar cotización\",\"w\":710,\"h\":52},{\"text\":\"WhatsApp\",\"w\":227.203125,\"h\":105.265625},{\"text\":\"314 578 6472\",\"w\":227.203125,\"h\":105.265625},{\"text\":\"Guardar contacto\",\"w\":227.203125,\"h\":105.28125},{\"text\":\"Compartir tarjeta\",\"w\":227.203125,\"h\":105.28125}]}"
+      "detail": "{\"sw\":1440,\"cw\":1440,\"buttons\":[{\"text\":\"\",\"w\":48,\"h\":48},{\"text\":\"Cotizar por WhatsApp\",\"w\":220,\"h\":50},{\"text\":\"Ver COMANDO en acción\",\"w\":220.8125,\"h\":50},{\"text\":\"15Quince años\",\"w\":345.328125,\"h\":105},{\"text\":\"★Graduaciones\",\"w\":345.328125,\"h\":105},{\"text\":\"♪Cumpleaños\",\"w\":345.34375,\"h\":105},{\"text\":\"↗Despedidas\",\"w\":345.328125,\"h\":105},{\"text\":\"✦Fiestas decembrinas\",\"w\":345.328125,\"h\":105},{\"text\":\"+Eventos especiales\",\"w\":345.34375,\"h\":105},{\"text\":\"Ver fotografías\",\"w\":1056,\"h\":76},{\"text\":\"Montaje completo\",\"w\":355.953125,\"h\":500},{\"text\":\"Vista iluminada\",\"w\":339.015625,\"h\":500},{\"text\":\"Listo para celebrar\",\"w\":339.015625,\"h\":500},{\"text\":\"Cerrar fotografías\",\"w\":181.3125,\"h\":46},{\"text\":\"Ver COMANDO en acción\",\"w\":1056,\"h\":76},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"▶\",\"w\":64,\"h\":64},{\"text\":\"Cerrar videos\",\"w\":144.375,\"h\":46},{\"text\":\"Solicitar cotización\",\"w\":583.609375,\"h\":50},{\"text\":\"WhatsApp\",\"w\":253,\"h\":50},{\"text\":\"314 578 6472\",\"w\":253,\"h\":50},{\"text\":\"Guardar contacto\",\"w\":253,\"h\":50},{\"text\":\"Compartir tarjeta\",\"w\":253,\"h\":50}]}"
     },
     {
       "name": "1440px objetivos táctiles",
@@ -137,6 +137,26 @@
       "detail": ""
     },
     {
+      "name": "Evento completa el formulario",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Evento lleva el foco al nombre",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Panel de fotografías abre",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Enlace de salto no invade la galería",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "Galería abre",
       "pass": true,
       "detail": ""
@@ -157,12 +177,37 @@
       "detail": ""
     },
     {
+      "name": "Panel de fotografías cierra",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Cierre devuelve foco al control de fotografías",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Botón destacado abre videos",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Visor de videos enfoca reproducción",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "Video se crea bajo demanda",
       "pass": true,
       "detail": ""
     },
     {
       "name": "Video no usa autoplay",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Panel de videos cierra",
       "pass": true,
       "detail": ""
     },
@@ -192,6 +237,21 @@
       "detail": ""
     },
     {
+      "name": "Compartir usa URL definitiva",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Canonical usa URL definitiva",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Open Graph usa URL definitiva",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "vCard se descarga",
       "pass": true,
       "detail": "COMANDO.vcf"
@@ -203,7 +263,7 @@
     }
   ],
   "summary": {
-    "passed": 40,
+    "passed": 52,
     "failed": 0
   }
 }

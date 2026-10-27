@@ -7,6 +7,7 @@ Tarjeta digital interactiva del pickup **COMANDO**, especializado en sonido para
 - Cotización preparada para WhatsApp `+57 314 578 6472`.
 - Llamada telefónica, descarga de contacto y Web Share.
 - Galería accesible con las tres fotografías originales.
+- Galería y visor de videos compactos, desplegables y accesibles.
 - Dos videos originales preparados para reproducción web bajo demanda.
 - Formulario validado que no persiste datos en el navegador.
 - Navegación por teclado, movimiento reducido y diseño responsive.
@@ -33,5 +34,7 @@ KZ_PLAYWRIGHT_MODULE=/ruta/a/playwright node tests/card.test.cjs
 El código fuente procede del candidato KZ-COMANDO-002 `71fd41c6e9e87d2211d4281422bde76aa1c8f130` y fue integrado sobre el historial existente de este repositorio.
 
 GitHub Pages no está activado ni forma parte de esta entrega.
+
+La optimización visual KZ-COMANDO-004 se desarrolla en `feature/kz-comando-004-premium` y conserva los recursos originales sin alterarlos.
 
 Desarrollado por KONFÍO ZINC.
