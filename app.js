@@ -27,6 +27,21 @@ document.querySelectorAll('.event-card').forEach((button) => {
   });
 });
 
+const videoPanel = document.querySelector('#video-panel');
+document.querySelector('#open-videos').addEventListener('click', () => {
+  videoPanel.open = true;
+  videoPanel.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+  videoPanel.querySelector('.play-button').focus({ preventScroll: true });
+});
+document.querySelectorAll('[data-close-panel]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const panel = document.getElementById(button.dataset.closePanel);
+    panel.querySelectorAll('video').forEach((video) => video.pause());
+    panel.open = false;
+    panel.querySelector('summary').focus();
+  });
+});
+
 const fields = ['name', 'event', 'date', 'location', 'duration'];
 const form = document.querySelector('#quote-form');
 function validateField(id) {
@@ -97,11 +112,19 @@ lightbox.addEventListener('click', (event) => { if (event.target === lightbox) h
 lightbox.addEventListener('touchstart', (event) => { touchStart = event.changedTouches[0].clientX; }, { passive: true });
 lightbox.addEventListener('touchend', (event) => { if (touchStart === null) return; const delta = event.changedTouches[0].clientX - touchStart; if (Math.abs(delta) > 45) showImage(currentImage + (delta < 0 ? 1 : -1)); touchStart = null; }, { passive: true });
 document.addEventListener('keydown', (event) => {
-  if (lightbox.hidden) return;
-  if (event.key === 'Escape') hideLightbox();
-  if (event.key === 'ArrowLeft') showImage(currentImage - 1);
-  if (event.key === 'ArrowRight') showImage(currentImage + 1);
-  if (event.key === 'Tab') {
+  if (!lightbox.hidden) {
+    if (event.key === 'Escape') hideLightbox();
+    if (event.key === 'ArrowLeft') showImage(currentImage - 1);
+    if (event.key === 'ArrowRight') showImage(currentImage + 1);
+  } else if (event.key === 'Escape') {
+    const openPanel = document.querySelector('.media-panel[open]');
+    if (openPanel) {
+      openPanel.querySelectorAll('video').forEach((video) => video.pause());
+      openPanel.open = false;
+      openPanel.querySelector('summary').focus();
+    }
+  }
+  if (!lightbox.hidden && event.key === 'Tab') {
     const controls = [...lightbox.querySelectorAll('button')];
     const first = controls[0], last = controls[controls.length - 1];
     if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
