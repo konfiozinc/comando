@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T14:27:57.229Z",
+  "generatedAt": "2026-10-27T14:43:20.048Z",
   "checks": [
     {
       "name": "320px sin desbordamiento",
@@ -237,6 +237,21 @@
       "detail": ""
     },
     {
+      "name": "Compartir usa URL definitiva",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Canonical usa URL definitiva",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Open Graph usa URL definitiva",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "name": "vCard se descarga",
       "pass": true,
       "detail": "COMANDO.vcf"
@@ -248,7 +263,7 @@
     }
   ],
   "summary": {
-    "passed": 49,
+    "passed": 52,
     "failed": 0
   }
 }

@@ -17,7 +17,7 @@ No se cambiaron fotografías, videos, teléfono, condiciones comerciales ni meta
 
 ## Validación
 
-La suite ejecutó **49 comprobaciones aprobadas y 0 fallidas**. Incluye las 40 comprobaciones previas y regresiones nuevas para apertura/cierre de fotografías y videos, selección de evento, foco, paneles, imágenes locales y rutas.
+La suite ejecutó **52 comprobaciones aprobadas y 0 fallidas**. Incluye las 40 comprobaciones previas, regresiones de interacción y controles de canonical, Open Graph y función de compartir con la URL definitiva.
 
 Resoluciones verificadas: 320×640, 360×640, 375×667, 390×844, 768×1024, 1024×768 y 1440×900.
 
@@ -33,4 +33,4 @@ Evidencias:
 
 ## Recomendación
 
-**GO para revisión visual del propietario.** La activación de GitHub Pages y la integración a `main` siguen pendientes de autorización expresa.
+**GO para publicación controlada.** La URL definitiva configurada es `https://konfiozinc.github.io/comando/`.

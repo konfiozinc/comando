@@ -1,6 +1,7 @@
 'use strict';
 
 const PHONE = '573145786472';
+const PUBLIC_URL = 'https://konfiozinc.github.io/comando/';
 const quoteBase = 'Hola, quiero contratar el pickup COMANDO.';
 
 document.querySelectorAll('.source-photo').forEach((image) => {
@@ -134,12 +135,12 @@ document.addEventListener('keydown', (event) => {
 
 const status = document.querySelector('#share-status');
 async function shareCard() {
-  const data = { title: 'COMANDO · Sonido para eventos', text: 'Conoce COMANDO y solicita una cotización para tu celebración.', url: location.href };
+  const data = { title: 'COMANDO · Sonido para eventos', text: 'Conoce COMANDO y solicita una cotización para tu celebración.', url: PUBLIC_URL };
   try {
     if (navigator.share) await navigator.share(data);
-    else if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(location.href); status.textContent = 'Enlace copiado.'; }
+    else if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(PUBLIC_URL); status.textContent = 'Enlace copiado.'; }
     else {
-      const temporary = document.createElement('textarea'); temporary.value = location.href; temporary.setAttribute('readonly', ''); temporary.style.position = 'fixed'; temporary.style.opacity = '0';
+      const temporary = document.createElement('textarea'); temporary.value = PUBLIC_URL; temporary.setAttribute('readonly', ''); temporary.style.position = 'fixed'; temporary.style.opacity = '0';
       document.body.append(temporary); temporary.select(); document.execCommand('copy'); temporary.remove(); status.textContent = 'Enlace copiado.';
     }
   } catch (error) { if (error.name !== 'AbortError') status.textContent = 'No fue posible compartir. Copia la dirección del navegador.'; }
