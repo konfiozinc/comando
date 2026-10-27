@@ -77,26 +77,20 @@
         <h2 id="gallery-title">COMANDO en detalle</h2>
         <p>Toca una fotografía para verla completa.</p>
       </div>
-      <details class="media-panel" id="gallery-panel">
-        <summary class="button button--media">Ver fotografías</summary>
-        <div class="media-panel__content">
-          <div class="gallery" role="list">
-            <button class="gallery__item gallery__item--tall" type="button" data-gallery-index="0" role="listitem">
-              <picture><source srcset="assets/img/comando.webp" type="image/webp"><img class="source-photo" src="comando.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Vista completa del pickup COMANDO" loading="lazy" decoding="async"></picture>
-              <span>Montaje completo</span>
-            </button>
-            <button class="gallery__item" type="button" data-gallery-index="1" role="listitem">
-              <picture><source srcset="assets/img/comando1.webp" type="image/webp"><img class="source-photo" src="comando1.jpeg" data-fallback="assets/img/comando4-poster.webp" alt="Vista frontal iluminada del pickup COMANDO" loading="lazy" decoding="async"></picture>
-              <span>Vista iluminada</span>
-            </button>
-            <button class="gallery__item" type="button" data-gallery-index="2" role="listitem">
-              <picture><source srcset="assets/img/comando2.webp" type="image/webp"><img class="source-photo" src="comando2.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Equipo COMANDO preparado junto a otro módulo para un evento" loading="lazy" decoding="async"></picture>
-              <span>Listo para celebrar</span>
-            </button>
-          </div>
-          <button class="panel-close" type="button" data-close-panel="gallery-panel">Cerrar fotografías</button>
-        </div>
-      </details>
+      <div class="gallery" role="list">
+        <button class="gallery__item gallery__item--tall" type="button" data-gallery-index="0" role="listitem">
+          <picture><source srcset="assets/img/comando.webp" type="image/webp"><img class="source-photo" src="comando.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Vista completa del pickup COMANDO" loading="lazy" decoding="async"></picture>
+          <span>Montaje completo</span>
+        </button>
+        <button class="gallery__item" type="button" data-gallery-index="1" role="listitem">
+          <picture><source srcset="assets/img/comando1.webp" type="image/webp"><img class="source-photo" src="comando1.jpeg" data-fallback="assets/img/comando4-poster.webp" alt="Vista frontal iluminada del pickup COMANDO" loading="lazy" decoding="async"></picture>
+          <span>Vista iluminada</span>
+        </button>
+        <button class="gallery__item" type="button" data-gallery-index="2" role="listitem">
+          <picture><source srcset="assets/img/comando2.webp" type="image/webp"><img class="source-photo" src="comando2.jpeg" data-fallback="assets/img/comando3-poster.webp" alt="Equipo COMANDO preparado junto a otro módulo para un evento" loading="lazy" decoding="async"></picture>
+          <span>Listo para celebrar</span>
+        </button>
+      </div>
     </section>
 
     <section class="section" id="videos" aria-labelledby="videos-title">
@@ -162,7 +156,7 @@
     </section>
   </main>
 
-  <footer><strong>COMANDO</strong><span>Pickup · Sonido para eventos</span><small>La disponibilidad, cobertura y precio se confirman al solicitar la cotización.</small></footer>
+  <footer><strong>COMANDO</strong><span>Pickup · Sonido para eventos</span><small>La disponibilidad, cobertura y precio se confirman al solicitar la cotización.</small><p class="credit">Desarrollado por <a href="https://github.com/konfiozinc" target="_blank" rel="noopener noreferrer">KONFÍO ZINC</a></p></footer>
 
   <div class="lightbox" id="lightbox" hidden>
     <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
