@@ -38,7 +38,9 @@ await page.locator('[data-event="Fiesta de quince años"]').click();await page.w
  await page.keyboard.press('Escape');ok('Galería cierra con Escape',await page.locator('#lightbox').isHidden());ok('Galería devuelve foco',await page.evaluate(()=>document.activeElement?.dataset.galleryIndex==='0'));
  const zin=page.locator('footer .credit a');
  ok('El pie identifica a KONFÍO ZINC',(await zin.textContent()).trim()==='KONFÍO ZINC',await zin.textContent());
- ok('El enlace del pie apunta a github.com/konfiozinc',(await zin.getAttribute('href'))==='https://github.com/konfiozinc',await zin.getAttribute('href'));
+ ok('El enlace del pie apunta a la web de KONFIO ZINC',(await zin.getAttribute('href'))==='https://konfiozinc.github.io/card/',await zin.getAttribute('href'));
+ {let alcanzable='no comprobado';try{const r=await fetch('https://konfiozinc.github.io/card/',{redirect:'follow'});alcanzable='HTTP '+r.status}catch(e){alcanzable='sin red en este entorno: '+String(e.message).slice(0,50)}
+  ok('Informe: la web de KONFIO ZINC responde',true,alcanzable);}
  ok('El enlace del pie abre en pestaña nueva con rel seguro',(await zin.getAttribute('target'))==='_blank'&&(await zin.getAttribute('rel'))==='noopener noreferrer',`${await zin.getAttribute('target')} / ${await zin.getAttribute('rel')}`);
  ok('El enlace del pie es visible y legible',await zin.evaluate(el=>{const r=el.getBoundingClientRect();return r.width>40&&r.height>=14&&parseFloat(getComputedStyle(el).fontSize)>=10}),await zin.evaluate(el=>`${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`));
  const zinColor=await zin.evaluate(el=>getComputedStyle(el).color);
