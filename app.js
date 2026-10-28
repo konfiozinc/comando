@@ -1,6 +1,6 @@
 'use strict';
 
-const PHONE = '573145786472';
+const PHONE = '573145786432';
 const PUBLIC_URL = 'https://konfiozinc.github.io/comando/';
 const quoteBase = 'Hola, quiero contratar el pickup COMANDO.';
 
@@ -148,7 +148,7 @@ async function shareCard() {
 document.querySelector('#share-top').addEventListener('click', shareCard);
 document.querySelector('#share-card').addEventListener('click', shareCard);
 document.querySelector('#save-contact').addEventListener('click', () => {
-  const card = ['BEGIN:VCARD', 'VERSION:3.0', 'FN:COMANDO', 'ORG:COMANDO', 'TEL;TYPE=CELL:+573145786472', 'NOTE:Pickup y sonido para eventos especiales', 'END:VCARD'].join('\r\n');
+  const card = ['BEGIN:VCARD', 'VERSION:3.0', 'FN:COMANDO', 'ORG:COMANDO', 'TEL;TYPE=CELL:+573145786432', 'NOTE:Pickup y sonido para eventos especiales', 'END:VCARD'].join('\r\n');
   const link = document.createElement('a');
   link.href = URL.createObjectURL(new Blob([card], { type: 'text/vcard;charset=utf-8' }));
   link.download = 'COMANDO.vcf';
